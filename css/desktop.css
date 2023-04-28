@@ -20,6 +20,73 @@
 .header-adr:hover {
   color: var(--pressed-state);
 }
+
+.footer-link:focus,
+.footer-link:hover {
+  background-color: var(--success);
+}
+.footer-btn:focus {
+  background-color: var(--pressed-state);
+}
+.footer-btn:hover {
+  background-color: var(--pressed-state);
+}
+.hero-btn:hover {
+  background-color: var(--pressed-state);
+}
+.hero-btn:focus {
+  background-color: var(--pressed-state);
+}
+.modal-close:focus {
+  background-color: var(--pressed-state);
+}
+.modal-close:hover {
+  background-color: var(--pressed-state);
+}
+.modal-close:focus > .icon-close {
+  fill: var(--white-background);
+}
+.modal-close:hover > .icon-close {
+  fill: var(--white-background);
+}
+.modal-btn:focus,
+.modal-btn:hover {
+  background-color: var(--pressed-state);
+}
+.social-link:focus,
+.social-link:hover {
+  background-color: var(--pressed-state);
+}
+.customers-link:focus,
+.customers-link:hover {
+  border-color: var(--pressed-state);
+}
+.customers-link:focus > .customers-icons,
+.customers-link:hover > .customers-icons {
+  fill: var(--pressed-state);
+}
+.examples-btn:hover {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
+  border-color: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.examples-btn:focus {
+  background: var(--pressed-state);
+  color: var(--white-background);
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.linklist-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.linklist-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .address-list {
   display: flex;
   gap: 40px;
@@ -52,7 +119,7 @@
   width: 264px;
 }
 .advantage-list {
-   flex-wrap: nowrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   gap: 24px;
 }
@@ -134,22 +201,22 @@
   padding-bottom: 100px;
   padding-left: 0%;
 }
-.footer-container{
-    flex-wrap: nowrap;
+.footer-container {
+  flex-wrap: nowrap;
 }
 .footer-text {
   max-width: 264px;
   margin-top: 17.5px;
 }
 .footer-input {
-    width: 264px;
+  width: 264px;
 }
 .footer-form {
   display: flex;
   gap: 24px;
 }
-.footer-lineup{
-    margin: inherit;
+.footer-lineup {
+  margin: inherit;
 }
 .footer-social {
   margin-right: 80px;
