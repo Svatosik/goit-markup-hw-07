@@ -1,0 +1,139 @@
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+.header-link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: var(--dark);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: relative;
+  transition: color var(--time-transition-duration)
+    var(--transition-timing-function);
+}
+
+.visited::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  bottom: -1px;
+  left: 0;
+  background: var(--pressed-state);
+}
+.header-address {
+  font-style: normal;
+}
+.header-adr {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: var(--text);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.address-list {
+  display: block;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+.nav-open-btn {
+  display: none;
+}
+.hero {
+  height: 436px;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-middle.jpg);;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  /* or 107% */
+}
+.modal-window {
+  min-width: 408px;
+}
+.advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.advantage-item {
+  padding-bottom: 0;
+  width: calc((100%-24px) / 2);
+}
+.advantage-text {
+  text-align: left;
+}
+.advantage-title {
+  text-align: left;
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px 24px;
+}
+.team-item {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.customers-list {
+  gap: 72px 24px;
+}
+.customers-item {
+  width: calc((100% - 64px) / 3);
+}
+
+.footer {
+  padding-left: 108px;
+}
+.footer-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+}
+.footer-input {
+  min-width: 264px;
+}
+.footer-lineup {
+  margin: 0%;
+  align-items: start;
+}
+.footer-form {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 24px;
+}
+.footer-btn {
+  margin-top: 0%;
+}
