@@ -1,6 +1,9 @@
 .container {
   width: 1158px;
-  margin: 0 auto;
+}
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .header-adr {
   padding-top: 24px;
@@ -86,10 +89,10 @@
   gap: 40px;
 }
 .hero {
-  padding-top: 188px;
   padding-bottom: 188px;
+  padding-top: 188px;
   max-width: 1440px;
-  height: 600px;
+  min-height: 600px;
   margin: 0 auto;
   background: var(--hero-background);
   background-image: linear-gradient(
@@ -197,6 +200,7 @@
 }
 .footer-container {
   flex-wrap: nowrap;
+  gap: 0px;
 }
 .footer-text {
   max-width: 264px;
@@ -208,9 +212,6 @@
 .footer-form {
   display: flex;
   gap: 24px;
-}
-.footer-lineup {
-  margin: inherit;
 }
 .footer-social {
   margin-right: 80px;
