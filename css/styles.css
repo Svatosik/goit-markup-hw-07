@@ -206,7 +206,7 @@ body {
 }
 .menu-social-list {
   display: flex;
-  gap: 56px;
+  gap: 12%;
 }
 .menu-social-link {
   display: flex;
@@ -238,6 +238,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  width: 100%;
+  max-width: 428px;
 }
 
 .footer-logo {
@@ -568,6 +570,7 @@ body {
   transition-property: fill-opacity, border-color, background-color, fill;
   transition-duration: var(--time-transition-duration);
   transition-timing-function: var(--transition-timing-function);
+  flex-shrink: 0;
 }
 .visually-hidden {
   position: absolute;
@@ -624,10 +627,6 @@ body {
     var(--transition-timing-function);
   cursor: pointer;
 }
-
-.advantage-item {
-  margin-bottom: 72px;
-}
 .advantage-iconbox {
   display: none;
 }
@@ -651,7 +650,7 @@ body {
 
   color: var(--text);
   text-align: left;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 .activity {
   display: none;

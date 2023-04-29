@@ -231,3 +231,11 @@
 .example-linklist {
   gap: 72px 24px;
 }
+.header-item{
+  margin-bottom: 0px;
+}
+.header-adr{
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+}
