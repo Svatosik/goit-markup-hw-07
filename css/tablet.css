@@ -152,8 +152,11 @@
 .footer-text {
   width: 264px;
 }
+.footer-title{
+  text-align: left;
+}
 .example-linklist {
-  gap: 72px 24px;
+  gap: 72px 16px;
 }
 .visited {
   color: var(--pressed-state);

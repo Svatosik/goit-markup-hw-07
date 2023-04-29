@@ -279,6 +279,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-background);
   margin-bottom: 16px;
+  text-align: center;
 }
 .footer-list {
   display: flex;
