@@ -97,7 +97,7 @@
   /* or 107% */
 }
 .modal-window {
-  min-width: 408px;
+  max-width: 408px;
 }
 .advantage-list {
   display: flex;
