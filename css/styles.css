@@ -630,6 +630,12 @@ body {
 .advantage-iconbox {
   display: none;
 }
+.advantage-item{
+  margin-bottom:72px ;
+}
+.advantage-item:last-child{
+  margin-bottom:0px ;
+}
 .advantage-title {
   font-weight: 700;
   font-size: 36px;
